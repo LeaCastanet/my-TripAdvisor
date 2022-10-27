@@ -1,0 +1,377 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemsHeader {
+  display: flex;
+  gap: 10px;
+}
+
+.itemsHeader p {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.itemsHeader p:hover {
+  background-color: #ededed;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#connectez-vous {
+  background-color: #000000;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#connectez-vous:hover {
+  background-color: #333333;
+}
+
+.hiden {
+  display: none;
+}
+
+header img {
+  width: 200px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 65px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h1 span {
+  color: #fe5d5d;
+}
+
+.menu {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: #000000 solid 1px;
+  padding: 10px;
+  border-radius: 20px;
+  line-height: 20px;
+  flex-shrink: 0;
+  flex: 1;
+  height: 50px;
+}
+
+.menu p:hover {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.images {
+  display: flex;
+  height: 400px;
+  gap: 2px;
+}
+
+.leftImg {
+  flex: 4;
+  background-image: url(/assets/img/image1-tripadvisor.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.rightTop {
+  flex: 1;
+  background-image: url(/assets/img/image2-tripadvisor.jpg);
+  background-size: cover;
+}
+
+.rightBottom {
+  flex: 1;
+  background-image: url(/assets/img/image3-tripadvisor.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.textUderImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.textUnderH2 {
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 654px;
+}
+
+footer {
+  padding: 50px;
+}
+
+.carrousel {
+  height: 250px;
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.colonneGauche {
+  flex: 1;
+  margin-right: 50px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.toutAfficher {
+  border: none;
+  background-color: transparent;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.toutAfficher:hover {
+  cursor: pointer;
+}
+
+.colonneDroite {
+  flex: 3;
+  display: flex;
+  overflow-x: scroll;
+  flex-direction: column;
+}
+
+.colonneDroiteHaute {
+  flex: 3;
+  display: flex;
+  flex-shrink: 0;
+  gap: 10px;
+}
+
+.colonneDroiteHaute .imgCarrousel {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+}
+
+.colonneDroiteHaute .superposition {
+  position: relative;
+  display: flex;
+}
+
+.superposition .heart {
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superposition .logoTrip {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  right: 80%;
+  display: flex;
+}
+
+.colonneDroiteHaute .imgCarrousel {
+  object-fit: cover;
+  object-position: center;
+}
+
+.imgCarrousel:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.colonneDroiteBasse {
+  flex: 3;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.colonneDroiteBasse p {
+  flex-shrink: 0;
+  width: 300px;
+  font-weight: bold;
+}
+
+.colonneDroiteBasse p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.evadezVous {
+  background-color: #f9f1ec;
+  display: flex;
+  height: 190px;
+  margin-bottom: 20px;
+}
+
+.colonneGaucheEvadezVous {
+  flex: 5;
+  margin: 20px;
+  align-self: start;
+}
+
+.colonneDroiteEvadezVous {
+  flex: 4;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  background-image: url(/assets/img/evadezvous.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.colonneDroiteEvadezVous .logoBest {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  right: 5%;
+}
+
+.voirLaListe {
+  background-color: #000000;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+footer {
+  background-color: #f9f1ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.lienFooter {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 1184px) {
+  .container {
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .menu p {
+    flex: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .menu p {
+    flex: 25%;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .itemsHeader {
+    display: none;
+  }
+
+  .hiden {
+    display: block;
+    cursor: pointer;
+  }
+} ;

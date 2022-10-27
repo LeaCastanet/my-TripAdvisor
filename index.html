@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b3df45fb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>TripAdvisor</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <img src="/assets/img/TripAdvisor-Logo.png" alt="logo TripAdvisor" />
+      <nav class="itemsHeader">
+        <p><i class="fa-sharp fa-solid fa-pen"></i> Avis</p>
+        <p><i class="fa-sharp fa-solid fa-heart"></i> Voyages</p>
+        <p><i class="fa-sharp fa-solid fa-bell"></i> Favories</p>
+        <button id="connectez-vous">Connectez-vous</button>
+      </nav>
+      <i class="fa-solid fa-magnifying-glass hiden"></i>
+    </header>
+
+    <main class="container">
+      <h1><span>Explorer</span> Paris</h1>
+      <nav class="menu">
+        <p>Hotels <i class="fa-sharp fa-solid fa-bed"></i></p>
+        <p>Locations de vacances <i class="fa-solid fa-house"></i></p>
+        <p>Activités <i class="fa-solid fa-ticket"></i></p>
+        <p>Restaurants <i class="fa-solid fa-utensils"></i></p>
+        <p>Forum de voyages <i class="fa-solid fa-comments"></i></p>
+        <p>Plus <i class="fa-solid fa-ellipsis"></i></p>
+      </nav>
+
+      <div class="images">
+        <div class="leftImg"></div>
+        <div class="right">
+          <div class="rightTop"></div>
+          <div class="rightBottom"></div>
+        </div>
+      </div>
+      <nav class="textUderImg">
+        <p>Europe > France > Ile-de-France > Paris</p>
+        <p>Visiter Paris</p>
+      </nav>
+
+      <h2>La Ville Lumière éblouit en tous points</h2>
+      <p class="textUnderH2">
+        Aucun autre endroit au monde ne fait autant rêver que Paris. La ville
+        séduit par son art, son architecture, sa culture et sa cuisine, mais il
+        y a aussi des merveilles plus discrètes qui n’attendent qu’à être
+        explorées : les ruelles pavées pittoresques, les pâtisseries au coin de
+        la rue et les petits bistrots douillets qui vous invitent à boire un
+        verre de beaujolais. Préparez-vous à vous approprier Paris.
+      </p>
+
+      <h2>Paris: les immanquables</h2>
+
+      <div class="carrousel">
+        <div class="colonneGauche">
+          <h3>Se divertir</h3>
+          <p>
+            Des lieux à voir, des rues à explorer et des expériences
+            emblématiques à Paris.
+          </p>
+          <button class="toutAfficher">Tout afficher</button>
+        </div>
+
+        <div class="colonneDroite">
+          <div class="colonneDroiteHaute">
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel1.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel2.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel3.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel4.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel5.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel6.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <nav class="colonneDroiteBasse">
+            <p>Eiffel Tower</p>
+            <p>Musée du Louvre</p>
+            <p>Arc de Triomphe</p>
+            <p>Musée Rodin</p>
+            <p>Librairie Shakespeare and Compagny</p>
+            <p>Cathédrale Notre-Dame de Paris</p>
+          </nav>
+        </div>
+      </div>
+
+      <div class="carrousel">
+        <div class="colonneGauche">
+          <h3>Se reposer</h3>
+          <p>Un mélange de charme, de symboles et de modernité.</p>
+          <button class="toutAfficher">Tout afficher</button>
+        </div>
+
+        <div class="colonneDroite">
+          <div class="colonneDroiteHaute">
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel7.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel8.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel9.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel10.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel11.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel12.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <nav class="colonneDroiteBasse">
+            <p>Le Bristol</p>
+            <p>La Réserve Paris - Hotel and Spa</p>
+            <p>Four Seansons Hotel Geoges V</p>
+            <p>Hotel de Crillon, A Rosewood Hotel</p>
+            <p>Le Meurice</p>
+            <p>Hotel des Grands Boulevards</p>
+          </nav>
+        </div>
+      </div>
+
+      <div class="carrousel">
+        <div class="colonneGauche">
+          <h3>Se restaurer</h3>
+          <p>Bistrots et bars typiques, et plus encore à Paris.</p>
+          <button class="toutAfficher">Tout afficher</button>
+        </div>
+
+        <div class="colonneDroite">
+          <div class="colonneDroiteHaute">
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel13.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel14.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel15.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel16.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel17.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="superposition">
+              <img
+                class="imgCarrousel"
+                src="/assets/img/imgCarrousel18.jpg"
+                alt=""
+              />
+              <div class="heart">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="/assets/img/logoTripFooter.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <nav class="colonneDroiteBasse">
+            <p>Verjus</p>
+            <p>114 Faubourg</p>
+            <p>Frenchie - Rue du Nil</p>
+            <p>Table de Colette</p>
+            <p>ASPIC</p>
+            <p>Crêperie Gigi</p>
+          </nav>
+        </div>
+      </div>
+
+      <div class="evadezVous">
+        <div class="colonneGaucheEvadezVous">
+          <h4>Evadez-vous</h4>
+          <p>
+            Visites, attractions et activités Best of the Best à ne pas manquer
+          </p>
+          <button class="voirLaListe">Voir la liste</button>
+        </div>
+        <div class="colonneDroiteEvadezVous">
+          <div>
+            <img
+              class="logoBest"
+              src="/assets/img/logoBestOfTheBest.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="/assets/img/logoTripFooter.svg" alt="" />
+      <nav>
+        <p>
+          Made at
+          <a
+            class="lienFooter"
+            href="https://www.lereacteur.io/"
+            target="_blank"
+            >Le Reacteur</a
+          >
+          by
+          <a
+            class="lienFooter"
+            href="https://www.linkedin.com/in/l%C3%A9a-castanet-458945253"
+            target="_blank"
+            >Léa Castanet</a
+          >
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>
