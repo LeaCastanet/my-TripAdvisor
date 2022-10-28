@@ -77,7 +77,6 @@ h1 span {
   display: flex;
   margin-bottom: 20px;
   gap: 20px;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -460,6 +459,14 @@ footer {
     margin: 0 auto;
   }
 
+  .menu {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .menu p {
     flex: 25%;
   }
@@ -489,5 +496,33 @@ footer {
   .hiden {
     display: block;
     cursor: pointer;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .carrousel {
+    height: 375px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .carrousel2 {
+    height: 300px;
+    display: flex;
+    margin-bottom: 30px;
+    overflow-x: scroll;
+    flex-direction: column;
   }
 } ;
